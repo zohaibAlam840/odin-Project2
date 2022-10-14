@@ -22,12 +22,17 @@
     flex-grow: 0.8;
     font-size: 24px;
     color: #f9faf8;
+    letter-spacing: 2px;
+}
+.nav a:hover{
+    letter-spacing: 5px;
 }
 .nav a{
     margin-top: 5px;
     text-decoration: none;
     color: white;
     font-size: 18px;
+    transition: 1s;
 }
 .contant{
     display: flex;
@@ -36,6 +41,7 @@
 
 .contant h1{
     font-size: 48px;
+    letter-spacing: 2px;
 }
 .contant img{
     height: 280px;
@@ -43,7 +49,7 @@
 }
 button{
     padding:5px 25px 5px 25px;
-    margin-top: 5px;
+    margin-top: 8px;
     background-color: #3882f6;
     font-size: 15px;
     border: none;
@@ -52,6 +58,7 @@ button{
 }
 .middle{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding:20px 150px 0px 150px;
@@ -61,9 +68,82 @@ button{
     height: 150px;
     border-radius: 20px;
     border: 3px solid #3882f6;
+    margin-top: 30px;
+    background-image: url(images/img\ 2.jpg);
+    background-position: center;
+    background-size: cover;
+    cursor: pointer;
+    transition: 1s;
+}
+.two{
+    background-image: url(images/images.jpg);
+}
+.three{
+    background-image: url(images/download.jpg);
+}
+.four{
+    background-image: url(images/1aaa93125322351.6116805651f0d.jpg);
 }
 .boxIn{
     display: flex;
     gap: 80px;
     margin-top: 20px;
+}
+.box p{
+    position: relative;
+    top: 150px;
+}
+.uppermiddle h1{
+    position: relative;
+    font-weight: 800;
+    left :50%;
+    transform: translateX(-25%);
+}
+.quote{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+    background-color: #e5e7eb;
+    padding: 100px;
+}
+.quote div{
+
+    font-size: 35px;
+    width: 50%;
+}
+.quote div span{
+    font-size: 18px;
+    font-weight: bolder;
+    padding-left: 350px;
+}
+.message{
+    padding:20px 150px 0px 150px;
+    margin-top: 50px;
+}
+.message div{
+    display: flex;
+    flex-direction: column;
+    height: 15vh;
+    background-color: #3882f6;
+    color: white;
+    padding-left: 300px;
+    justify-content: center;
+    border-radius: 10px;
+}
+.message button{
+    position: relative;
+    border: 2px solid whitesmoke;
+    left :900px;
+    bottom: 85px;
+}
+.footer{
+    display: flex;
+    margin-top: 40px;
+    color:#e5e7eb;
+    background-color: #1f2937;
+    height: 10vh;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
 }
